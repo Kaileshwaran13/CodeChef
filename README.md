@@ -1,7 +1,7 @@
 ### Problem Solver - Silver Badge
 
+<img src= "![Problem Solving -  Silver](https://github.com/user-attachments/assets/3e156d7b-a6b6-4852-a740-8de412b7c6a3)" alt="Example Image" width="500" height="300">
 
-![Problem Solving -  Silver](https://github.com/user-attachments/assets/3e156d7b-a6b6-4852-a740-8de412b7c6a3)
 
 
 ### Daily Streak - Bronze Badge
