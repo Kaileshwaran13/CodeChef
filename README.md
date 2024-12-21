@@ -1,7 +1,6 @@
 ### Problem Solver - Silver Badge
 
-
-<img src="![Problem Solving -  Silver](https://github.com/user-attachments/assets/fece99d4-c092-480c-9a34-0128746b7daa)" alt="Example Image" width="400">
+![Problem Solving -  Silver](https://github.com/user-attachments/assets/fece99d4-c092-480c-9a34-0128746b7daa)
 
 
 
