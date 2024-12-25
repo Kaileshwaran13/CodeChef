@@ -11,10 +11,7 @@ int main() {
             if( (j == 0 && islower(str[j])) || ( str[j - 1] == ' '  && islower(str[j]) ) || j == str.size() - 1 && isupper(str[j]) && isupper(str[j - 1]) ) 
                 cout << char(toupper(str[j]));
             else{
-                if(isupper(str[j]) && isupper(str[j + 1]) && isupper(str[j - 1]) ){
-                    cout << str[j];
-                }
-                else if(isupper(str[j]) && islower(str[j + 1]) ){
+                if(isupper(str[j]) && islower(str[j + 1]) ){
                     cout << char(tolower(str[j]));
                 }
                 else{
