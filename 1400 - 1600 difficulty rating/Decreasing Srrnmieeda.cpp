@@ -8,7 +8,7 @@ int main()
     while (t--)
     {
         cin >> l >> r;
-        if (l <= (r / 2) || l == 1 ll)
+        if (l <= (r / 2) || l == 1)
             cout << "-1\n";
         else
             cout << r << "\n";
