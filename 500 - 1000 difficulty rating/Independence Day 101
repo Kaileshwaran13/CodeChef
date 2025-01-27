@@ -1,0 +1,17 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int tt, a, b, c;
+    cin >> tt;
+    while(tt--){
+        cin >> a >> b >> c;
+        if(max(a,max(b,c)) <= (a+b+c - max(a,max(b,c))) +1){
+            cout << "YES" << '\n';
+        }
+        else{
+            cout << "NO" << '\n';
+        }
+    }
+
+}
