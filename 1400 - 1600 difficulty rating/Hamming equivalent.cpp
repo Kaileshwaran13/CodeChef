@@ -2,8 +2,10 @@
 using namespace std;
 
 int main() {
+
     int T;
     cin >> T;
+
     while (T--) {
         long long N;
         cin >> N;
@@ -15,7 +17,7 @@ int main() {
                 b++;
             }
         }
-        if (b == 1) 
+        if (b) 
             cout << "No" << endl;
         else 
             cout << "Yes" << endl;
