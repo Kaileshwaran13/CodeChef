@@ -1,4 +1,5 @@
  #include <bits/stdc++.h>
+
  using namespace std;
 
  int main() {
@@ -13,10 +14,9 @@
          }
          if (n == 1 || n == 2) {
              cout << -1 << endl;
-             return;
+             continue;
          }
-         int one;
-         int three;
+         int one, three;
          for (int i = 0; i < n; i++) {
              if (p[i] == 1) {
                  one = i;
