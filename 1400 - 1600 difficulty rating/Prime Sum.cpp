@@ -26,7 +26,7 @@ int main()
         cin >> a >> b;
         if (a == 1 || b == 1)
             cout << "-1\n";
-        else if ((a % 3 == 0 ll && b % 3 == 0 ll) || __gcd(a, b) > 1)
+        else if ((a % 3 == 0 && b % 3 == 0) || __gcd(a, b) > 1)
             cout << "0\n";
         else if (a & 1 || b & 1)
             cout << "1\n";
