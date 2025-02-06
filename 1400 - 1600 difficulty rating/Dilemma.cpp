@@ -10,7 +10,7 @@ int main()
     {
         string s;
         cin >> s;
-        ll ones = 0 ll;
+        ll ones = 0;
         for (i = 0; i < s.length(); i++)
         {
             if (s[i] == '1')
