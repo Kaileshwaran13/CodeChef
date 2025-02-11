@@ -1,7 +1,8 @@
+//ladchat supremacy
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long
-#define MAX INT_MAX
+#define MAX 1000000007
 
 int main() {
     ll t;
