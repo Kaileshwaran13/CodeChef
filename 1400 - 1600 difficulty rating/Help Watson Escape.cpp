@@ -7,9 +7,9 @@ int solve(int a, int n) {
     int ans = 1;
     while (n > 0) {
         if (n % 2 == 1) {
-            ans = (a * (1 ll) * ans) % mod;
+            ans = (a * (1ll) * ans) % mod;
         }
-        a = (a * (1 ll) * a) % mod;
+        a = (a * (1ll) * a) % mod;
         n /= 2;
     }
     return ans;
@@ -21,6 +21,6 @@ int main() {
     while (t--) {
         ll n, k;
         cin >> n >> k;
-        cout << (k * 1 LL * solve(k - 1, n - 1)) % mod << endl;
+        cout << (k * 1LL * solve(k - 1, n - 1)) % mod << endl;
     }
 }
