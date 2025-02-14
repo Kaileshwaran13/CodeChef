@@ -5,6 +5,9 @@ int main() {
     for (int i = 1; i <= 1000000; i++) {
         string s;
         cin >> s;
+        if (cin.eof() || cin.fail()) {
+            break;
+        }
         int ch1 = 0, ch2 = 0, maxreach1 = 5, maxreach2 = 5;
         for (int j = 0; j < 10; j++) {
             if (s[j] == '1' && j % 2 == 0) {
@@ -26,6 +29,7 @@ int main() {
                 break;
             }
         }
+
         if (ch1 == ch2) {
             for (int j = 10; j < 20; j += 2) {
                 if (s[j] == '1') ch1++;
