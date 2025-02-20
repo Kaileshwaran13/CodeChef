@@ -10,7 +10,7 @@ int main() {
         long long l = x / 2, r = l;
         if (x % 2) l++;
         long long l1, r1;
-        for (int i = 1; i * i <= y; i++) {
+        for (long long i = 1; i * i <= y; i++) {
             if (y % i == 0) {
                 l1 = i;
                 r1 = y / i;
