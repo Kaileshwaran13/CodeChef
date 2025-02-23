@@ -15,7 +15,7 @@ int main()
         for (int i = 0; i < n; i++)
         {
             cin >> v[i];
-            long long numerator = 3 * v[i] * 1 l;
+            long long numerator = 3 * v[i] * 1;
             long long denominator = v[i] - 1;
             if (denominator != 0 && numerator % denominator == 0)
             {
